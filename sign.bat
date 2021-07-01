@@ -1,0 +1,1 @@
+signtool sign /f d:\projects\cert\kcl.pfx /p 232111 /fd SHA256 f:\k4.exe
