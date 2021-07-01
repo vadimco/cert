@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\signtool" sign /f d:\projects\cert\kcl.pfx /p 232111 /fd SHA256 f:\k4.exe
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\signtool" sign /f d:\projects\cert\kcl.pfx /p 232111 /t http://timestamp.digicert.com /fd SHA256 %1
